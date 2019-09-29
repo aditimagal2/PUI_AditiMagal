@@ -1,0 +1,399 @@
+/* Removing margins for the body */
+body{
+  margin: 0px;
+}
+
+/* Top Navigation */
+.topnav{
+  background-color: #ffffff;
+  overflow: hidden;
+  border-bottom: 10px solid #FC6F76;
+  font-family: 'Avenir-Medium';
+}
+
+.topnav a {
+  float: left; 
+  color: #2B2B2B;
+  text-align: left;
+  padding: 20px 10px;
+  padding-bottom: 6px;
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* Hover state */
+.topnav a:hover{
+  color: #FC6F76;
+}
+
+/* Active link*/
+.topnav a.active{
+  background-color: #ffffff;
+  color: #2B2B2B;
+  border-bottom: 10px solid #A1DFC6;
+}
+
+.topnav a.active2{
+  background-color: #ffffff;
+  color: #2B2B2B;
+  border-bottom: 10px solid #A1DFC6;
+  margin-top:38px;
+}
+
+.centernav{
+  margin-top: 18px;
+}
+
+/* Active link*/
+.cartonside {
+  margin-top: 6px;
+}
+
+svg:hover {
+  fill:#FC6F76;
+}
+
+/* Background image for homepage top */
+.hero-image {
+  background-image:url("img/BackgroundImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+}
+
+
+/* Type for homepage top part */
+.type1{
+  font-family: 'Stalemate', cursive;
+  font-size: 50px;
+  line-height:1.1;
+  font-style:normal;
+  color: #2B2B2B;
+}
+
+/* Padding for homepage text*/
+.padding1 {
+  padding-top: 150px;
+  margin-left: 840px;
+}
+
+/* Padding for button on homepage */
+.padding2 {
+  margin-left: 1170px;
+}
+
+/* Button 1: Pink turns green on hover*/
+
+.button1{
+  background-color: #FC6F76; 
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Avenir-Medium';
+  font-size:25px;
+  color: white;
+  border: double;
+  border-width: 10px;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background-color: #A1DFC6; 
+}
+
+
+/* Button 2: Green turns pink on hover*/
+
+.button2{
+  background-color: #A1DFC6; 
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Avenir-Medium';
+  font-size:25px;
+  color: white;
+  border: double;
+  border-width: 10px;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background-color: #FC6F76; 
+}
+
+/* AboutUs*/
+.LaraJones {
+  background-color: #FC6F76; 
+  display: inline-block;
+  color: white;
+  border: double 20px;
+  text-decoration: none;
+}
+
+
+/* Background color for homepage pink */
+.hero-image2 {
+  margin-top:-20px;
+  background-color: #FCA9AE;
+  height: 1150px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+/* Type for homepage pink */
+.type2 {
+  font-family: 'Avenir-Medium';
+  font-size: 28px;
+  text-align: center;
+  color: #2B2B2B;  
+  padding-top: 80px;
+}
+
+
+/* Balloon style */
+.balloon-style {
+  margin-left:60px;
+  margin-top: -100px;
+  margin-bottom:-23px;
+}
+
+/* Most Popular*/
+.popular {
+  font-family:'Avenir-Black';
+  font-size: 15px;
+  margin-left:140px;
+  margin-top:-40px;
+  margin-bottom:10px;
+}
+
+/* Flavor Hover state */
+.container {
+  position: relative;
+  width: 27%;
+  padding-top:20px;
+  float:left;
+  margin-left: 68px;
+}
+
+.image-flavor {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.flavor-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E7DAB4;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #2B2B2B;
+  font-family:'Avenir-Medium';
+  font-size: 23px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:70%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+/* Background color for homepage white */
+.hero-image3 {
+  margin-top:-20px;
+  background-color: #FFFFFF;
+  height: 550px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+/* Type 3 */
+.type3 {
+  font-family: 'Avenir-Medium';
+  font-size: 24px;
+  color: #2B2B2B;  
+}
+
+
+/* Padding for button under let us celebrate on homepage */
+.padding3 {
+  margin-left: 970px;
+  float:left;
+}
+
+
+/* Balloon style */
+.Streamers {
+  margin-left:20px;
+  margin-bottom:-23px;
+}
+
+
+/* Footer */
+.botnav{
+  background-color: #A1DFC6;
+  overflow: hidden;
+  font-family: 'Avenir-Medium';
+  margin-top: -48px;
+
+}
+
+.botnav a {
+  float: left; 
+  color: #2B2B2B;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top:60px;
+}
+
+.botnav2 {
+    padding: 40px 10px;
+}
+
+/* Hover state */
+.botnav a:hover{
+  color: #FC6F76;
+}
+
+
+
+/* Padding for Original page*/
+.paddingOriginal {
+  padding-top: 150px;
+  margin-left: 650px;
+}
+
+/* Yellow font*/
+.type4{
+  color: #E0A951;
+  font-family: 'Avenir-Black';
+  font-size:20px;
+}
+
+/* Box original page*/
+.box {
+  box-sizing: border-box;
+  width: 300px;
+  padding: 10px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  border: 3px solid #B7B7B7;
+  font-family: 'Avenir-Medium';
+  font-size:20px;
+}
+
+
+/* Background Green for shopping Cart */
+.hero-image5 {
+  margin-top:-140px;
+  background-color: #A1DFC6;
+  width:820px;
+  height: 1070px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+/* Type for homepage pink */
+.type5 {
+  font-family: 'Avenir-Medium';
+  font-size: 28px;
+  text-align: center;
+  color: #2B2B2B;  
+  padding-top: 80px;
+}
+
+/* Table For Shopping Cart */
+table {
+  border-collapse: collapse;
+}
+
+table, td, th {
+  box-sizing: border-box;
+  padding: 10px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+  border: 3px solid #B7B7B7;
+  font-family:'Avenir-Medium';
+  font-color:#2B2B2B;
+  font-size:20px;
+}
+
+/* Avenir fonts*/
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('../fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/Avenir-Light.woff') format('woff'), 
+        url('../fonts/Avenir-Light.ttf')  format('truetype'), 
+        url('../fonts/Avenir-Light.svg#Avenir-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir-Medium';
+    src: url('../fonts/Avenir-Medium.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/Avenir-Medium.woff') format('woff'),
+        url('../fonts/Avenir-Medium.ttf')  format('truetype'),
+        url('../fonts/Avenir-Medium.svg#Avenir-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('../fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/Avenir-Black.woff') format('woff'), 
+        url('../fonts/Avenir-Black.ttf')  format('truetype'), 
+        url('../fonts/Avenir-Black.svg#Avenir-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-Heavy';
+    src: url('../fonts/Avenir-Heavy.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/Avenir-Heavy.woff') format('woff'),
+        url('../fonts/Avenir-Heavy.ttf')  format('truetype'),
+        url('../fonts/Avenir-Heavy.svg#Avenir-Heavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-Book';
+    src: url('../fonts/Avenir-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Avenir-Book.woff') format('woff'), 
+        url('../fonts/Avenir-Book.ttf')  format('truetype'), 
+        url('../fonts/Avenir-Book.svg#Avenir-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
