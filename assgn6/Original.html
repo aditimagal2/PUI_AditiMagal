@@ -2,17 +2,13 @@
 <html>
   <head>
 
-    <!-- style css-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
     <!-- JavaScript for store. Async makes it load multiple times-->
     <script src="store.js" async></script>
 
-    <!-- JavaScript for Carousel-->
-    <script src="general.js" async></script>
-
     <!-- Font used for cursive -->
     <link href="https://fonts.googleapis.com/css?family=Stalemate&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
 
@@ -31,7 +27,7 @@
 
 
     <!-- SVG is for the shopping cart -->
-    <a class="cartonside" href="ShoppingCart.html" >
+    <a class="cartonside" id="iconShoppingCart">
   	 <svg class="noHover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="45" fill="#2B2B2B" style="padding-left:240px;">
       <path d="M 25 1 C 19.484375 1 15 5.484375 15 11 L 15 13 L 7.09375 13 L 2.875 50 L 47.125 50 L 42.90625 13 L 37 13 L 37 19 C 37 20.65625 35.65625 22 34 22 C 33.777344 22 33.550781 21.984375 33.34375 21.9375 C 32.003906 21.636719 31 20.433594 31 19 C 31 17.699219 31.839844 16.601563 33 16.1875 L 33 19 C 33 19.550781 33.445313 20 34 20 C 34.554688 20 35 19.550781 35 19 L 35 11 C 35 5.484375 30.515625 1 25 1 Z M 25 3 C 29.410156 3 33 6.589844 33 11 L 33 13 L 19 13 L 19 19 C 19 20.65625 17.65625 22 16 22 C 15.777344 22 15.550781 21.984375 15.34375 21.9375 C 14 21.636719 13 20.433594 13 19 C 13 17.699219 13.839844 16.601563 15 16.1875 L 15 19 C 15 19.550781 15.449219 20 16 20 C 16.550781 20 17 19.550781 17 19 L 17 11 C 17 6.589844 20.589844 3 25 3 Z"/>
 	  </svg>
@@ -77,15 +73,14 @@
           <!-- Dropdown for glazing -->
           <select id="dropBox" onchange="changeColor()" >
             <!-- None -->
-            <div class="dropBox-content">
-            <option value="" >None</option>
+            <option value="" name="None">None</option>
             <!-- Sugar-Milk -->
-            <option value="#F3CDAF">Sugar-Milk</option>
+            <option value="#F3CDAF" name="Sugar-Milk">Sugar-Milk</option>
             <!-- Vanilla-Milk -->
-            <option value="#E7DAB4" >Vanilla-Milk</option>
+            <option value="#E7DAB4" name="Vanilla-Milk">Vanilla-Milk</option>
             <!-- Double-chocolate -->
-            <option value="#854C3D">Double-Chocolate</option>
-          </div>
+            <option value="#854C3D" name="Double-Chocolate">Double-Chocolate</option>
+
           </select>
 
           
@@ -96,10 +91,14 @@
         <div class="type3">
             <!-- Radio buttons for choosing pack -->
             <p class="type4" style="margin-bottom:8px;"> CHOOSE PACK SIZE </p>
-            <input onclick="fnRadio1()" id="rd1" name="grp1" type="radio" value="1 Roll" checked>1 Roll</input>
-            <input onclick="fnRadio1()" id="rd2" name="grp1" type="radio" value="3 Rolls">3 Rolls</input>
-            <input onclick="fnRadio1()" id="rd3" name="grp1" type="radio" value="6 Roll">6 Roll</input>
-            <input onclick="fnRadio1()" id="rd4" name="grp1" type="radio" value="12 Rolls">12 Rolls</input>
+            <input onclick="fnRadio1()" id="rd1" name="packSize" type="radio" value="1 Roll" checked>1 Roll</input>
+            <input onclick="fnRadio1()" id="rd2" name="packSize" type="radio" value="3 Rolls">3 Rolls</input>
+            <input onclick="fnRadio1()" id="rd3" name="packSize" type="radio" value="6 Rolls">6 Rolls</input>
+            <input onclick="fnRadio1()" id="rd4" name="packSize" type="radio" value="12 Rolls">12 Rolls</input>
+        </div>
+
+        <div>
+          <p class="type3" style="color:#A1DFC6; font-size:15px;font-family:Avenir-Black;">&nbsp&nbsp&nbsp&nbsp&nbsp$2 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp$5&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp$10&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp$15</p>
         </div>
 
 
@@ -119,83 +118,103 @@
 
 
     <div class="padding3" >
-		  <button onclick="toggleCart()" class="button1" style="margin-left:-327px; margin-top:-50px">Add to Cart</button>
+		  <button onclick="toggleCart();addItemToCart();" class="button1" style="margin-left:-327px; margin-top:140px">Add to Cart</button>
 	</div>
+  </div>
 
+  <!-- Cart -->
 
+  <!-- Things I need- image, glazing, pack size, quantity, price -->
+  <div id="cart" class="cart">
+    <!--end of  cart item -->
+    <!-- cart item -->
+      <div class="cart-item">
+        <p id="cart-item-title" class="type1" style="font-size:60px;">Shopping Bag</p>
+
+          <table>
+            <tr>
+              <th style="width:100px;">Item</th>
+              <th style="width:150px;">Glazing</th>
+              <th style="width:150px;">Pack Size</th>
+              <th style="width:100px;">Quantity</th>
+              <th style="width:100px;">Price</th>
+              <th style="width:70px;"></th>
+            </tr>
+          </table>
+
+      </div>
+
+        <table class="cart-total-container">
+          <tr>
+            <td style="width:118px;">Shipping</td>
+            <td style="width:124px;"></td>
+            <td style="width:108px;"></td>
+            <td style="width:108px;"></td>
+            <td style="width:85px;">$5</td>
+            <td style="width:71px;"></td>
+          </tr>
+          <tr class="type4">
+            <td style="font-family:Avenir-Black;">Total</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <!--This is the total -->
+            <td>$<input id="combined" value="1" style="background:#A1DFC6; color:#E0A951;font-family: Avenir-Black; font-size:20px; border:none;width:48px;" disabled></input></td>
+            <td></td>
+          </tr>
+        </table>
+
+      <div class="cart-buttons-container mt-3 d-flex justify-content-between">
+        <br>
+        <a href="#" class="button1 btn-outline-secondary text-uppercase">Proceed to Checkout</a>
+      </div>
+      <!--end of  cart buttons -->
+      <!--  -->
   </div>
 
 
 
-    <!-- Ingredients -->
-		<div class="Streamers">
-			<img src="img/BunBun/Multiple.png" style="width:25%; padding-left:120px; margin-top:-450px">
+
+  <!-- Ingredients -->
+	<div class="Streamers">
+		<img src="img/BunBun/Multiple.png" style="width:25%; padding-left:120px; margin-top:-450px">
 		</div>
   </div>
-
-
 
 
 <div class="hero-image3">
 	<div class="paddingOriginal">
 		<div class="type1">
 			<h1 style="margin-top:-455px;margin-bottom:-10px;font-size:70px">Ingredients</h1>
-			 <p class="type3" style="margin-top:40px"> Milk, sugar, butter, egg, flour, cinnamon, vanilla extract <br>(May contain nuts) <br><br>Combined with our smooth, tender dough and fluffy <br>signature frosting, this isn’t your average cinnamon roll.</p>	
+			 <p class="type3" style="margin-top:40px;margin-bottom:100px;"> Milk, sugar, butter, egg, flour, cinnamon, vanilla extract <br>(May contain nuts) <br><br>Combined with our smooth, tender dough and fluffy <br>signature frosting, this isn’t your average cinnamon roll.</p>	
 		</div>
 	</div>
+<p class="type2" style="margin-bottom:130px;padding-top:20px;">Similar Products:</p>
+<!-- Carousel --> 
+<div class="slider similarProducts">
 
-  <!-- 6 flavors- with hover -->
-  <div class="hero-image2" id="Flavor1" style="margin-top:-80px">
-	  <div class="type2" style="padding-top:40px">
-		  <p>Other exciting flavors </p>
-	  </div>
-
-
-	<!-- Hover boxes -->
-	<div class="container" onclick="location.href='Original.html';">
-  	<img src="img/BunBun/Blackberry.png" class="image-flavor">
-
-  	<div class="overlay">
-    	<div class="text">Our cinnamon rolls made from handpicked blackberries will melt in your mouth.</div>
-  	</div>
-	</div>
-
-	<div class="container" onclick="location.href='Original.html';" >
-  	<img src="img/BunBun/Walnut.png" class="image-flavor">
-  	<div class="overlay">
-    	<div class="text">Our lightly roasted walnut and creamy cinnamon rolls pair well together.</div>
-  	</div>
-	</div>
-
-
-  <div class="container" onclick="location.href='Original.html';" style="margin-top:1px;">
-  	<img src="img/BunBun/GlutenFree.png" class="image-flavor">
-  		<div class="overlay">
-    	<div class="text">Gluten Free!? Still amazing. Give our Cinnamon rolls a try.</div>
-  		</div>
-	</div>
-	
-  <div class="container" onclick="location.href='Original.html';" style="margin-top:40px;">
-  	<img src="img/BunBun/PumpkinSpice.png" class="image-flavor">
-
-  	<div class="overlay">
-    	<div class="text">It's Fall and Pumpkin Spice is back. Our authentic flavors will melt in your mouth.</div>
-  	</div>
-	</div>
-
-	<div class="container" onclick="location.href='Original.html';" style="margin-top:40px;">
-  	<img src="img/BunBun/CaramelPecan.png" class="image-flavor">
-  	<div class="overlay">
-    	<div class="text">What pairs better than Caramel, Pecan and Cinnamon? Try it to see.</div>
-  	</div>
-	</div>
-
+  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+  <div class="slider__inner">
+    <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+      <img src="img/BunBun/Blackberry.png" style="width:400px;" class="carouselPadding">
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+      <img src="img/BunBun/Walnut.png" style="width:400px;" class="carouselPadding">
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+      <img src="img/BunBun/PumpkinSpice.png" style="width:400px;" class="carouselPadding">
+    </div>
+    <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+      <img src="img/BunBun/CaramelPecan.png" style="width:400px;" class="carouselPadding">
+    </div>
   </div>
-
-
+</div>
 
   <!-- Footer -->
-  <div class="botnav" style="margin-top:-100px">
+  <div class="botnav" style="margin-top:0px">
 
   <!-- Location -->
   <a href="#about" class="botnav2">
@@ -244,3 +263,4 @@
   </div>
   
 </body>
+</html>

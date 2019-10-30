@@ -1,3 +1,134 @@
+.slider {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__nav {
+  width: 12px;
+  height: 12px;
+  margin: 2rem 12px;
+  border-radius: 50%;
+  z-index: 10;
+  outline: 6px solid #ccc;
+  outline-offset: -6px;
+  box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.slider__nav:checked {
+  -webkit-animation: check 0.4s linear forwards;
+          animation: check 0.4s linear forwards;
+}
+.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+  left: 0%;
+}
+.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+  left: -100%;
+}
+.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+  left: -200%;
+}
+.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
+  left: -300%;
+}
+.slider__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  -webkit-transition: left 0.4s;
+  transition: left 0.4s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.slider__contents {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__image {
+  font-size: 2.7rem;
+      color: #2196F3;
+}
+.slider__caption {
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+.slider__txt {
+  color: #999;
+  margin-bottom: 3rem;
+  max-width: 300px;
+}
+
+@-webkit-keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+
 /* Removing margins for the body */
 body{
   margin: 0px;
@@ -91,7 +222,7 @@ svg:hover {
   font-size: 50px;
   line-height:1.1;
   font-style:normal;
-  color: #2B2B2B;
+ fa trash color: #2B2B2B;
 }
 
 /* Padding for homepage text*/
@@ -179,12 +310,9 @@ svg:hover {
   border-radius: 50%; /* or 50% */
   border:none;
   background-color: #A1DFC6;
-  color: white;
+  color: black;
   text-align: center;
-}
-
-.circleShoppingCart:hover {
-  background-color: #FC6F76;
+  transition: pop 0.3s linear 1;
 }
 
 .button3:hover {
@@ -318,7 +446,7 @@ svg:hover {
 
 /* Type 3 */
 .type3 {
-  font-family: 'Avenir-Medium';
+  font-family: 'Avenir-Light';
   font-size: 24px;
   color: #2B2B2B;  
 }
@@ -337,6 +465,16 @@ svg:hover {
   margin-bottom:-23px;
 }
 
+/* Similarproducts */
+.similarProducts{
+  background-color: #F6898E;
+  overflow: hidden;
+  margin-top:-100px;
+}
+
+.carouselPadding {
+  padding-bottom:40px;
+}
 
 /* Footer */
 .botnav{
@@ -371,6 +509,7 @@ svg:hover {
 .paddingOriginal {
   padding-top: 150px;
   margin-left: 650px;
+  margin-bottom:-200px;
 }
 
 /* Yellow font*/
@@ -415,7 +554,11 @@ svg:hover {
   border: 3px solid #B7B7B7;
   font-family: 'Avenir-Medium';
   font-size:20px;
+  position:relative;
 }
+
+
+
 
 select {
     -webkit-writing-mode: horizontal-tb !important;
@@ -510,6 +653,7 @@ table, td, th {
   font-family:'Avenir-Medium';
   font-color:#2B2B2B;
   font-size:20px;
+  text-align: left;
 }
 
 /* For the No under pack size image */
@@ -519,85 +663,53 @@ table, td, th {
   font-size:20px;
 }
 
-/* This code for radio button styling does not work :(); */
-
-/* RadioButton*/
-.radioClass {
-  box-sizing: border-box;
-  width: 60px;
-  padding: 10px; 
-  padding-left: 15px; 
-  padding-right: 15px; 
-  border: 3px solid #B7B7B7;
-  font-family: 'Avenir-Medium';
-  font-size:20px;
-  margin-left:-3px;
-}
-
-#radio-toolbar {
-  margin: 10px;
-}
-
-.radio-Class input[type="radio"] {
-  opacity: 0;
-  position: fixed;
-  width: 0;
-}
-
-.radio-toolbar label {
-    display: inline-block;
-    background-color: #ddd;
-    padding: 10px 20px;
-    font-family: sans-serif, Arial;
-    font-size: 16px;
-    border: 2px solid #444;
-    border-radius: 4px;
-}
-
-.radio-toolbar label:hover {
-  background-color: #dfd;
-}
-
-.radio-toolbar input[type="radio"]:focus + label {
-    border: 2px dashed #444;
-}
-
-
-
-/* Cart starts here*/
-.cart-info {
-  border: 0.1rem solid var(--mainBlack);
-  color: var(--mainBlack);
-  border-radius: 0.25rem;
-  padding: 0.4rem 0.6rem;
-  cursor: pointer;
-}
-.cart-info:hover {
-  background: var(--mainPink);
-  border-color: var(--mainPink);
-  color: var(--mainWhite);
-}
-.cart-info:hover .cart-info__icon {
-  color: var(--mainWhite);
-}
-
+/* Green box around cart*/
 .cart {
   position: absolute;
-  min-height: 10rem;
+  height: 1091px;
   background: var(--mainWhite);
-  top: 0;
+  top: 102px;
   right: 0;
   transition: all 0.3s ease-in-out;
-  background: rgba(255, 255, 255, 0.5);
+  background: #A1DFC6;
+  /* width when cart is closed*/
   width: 0;
   overflow: hidden;
 }
 .show-cart {
-  width: 18rem;
+  /* width when cart is open*/
+  width: 600px;
   padding: 2rem 1.5rem;
   transform: rotateY(-360deg);
 }
 
+
+
+.thumbnailForCart {
+  /* width when cart is open*/
+  width: 50px;
+  padding: 20px;
+}
+
+/* end of cart */
+/* cart item */
+.cart-item-remove {
+  color: var(--mainPink);
+  transition: all 1s ease-in-out;
+}
+.cart-item-remove:hover {
+  transform: scale(1.1);
+  color: var(--mainBlack);
+}
+#cart-item-price {
+  font-size: 0.8rem;
+}
+
+
+/* end of cart */
+
+
+/* Carousel */
 
 /* Avenir fonts*/
 @font-face {
