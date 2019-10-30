@@ -1,6 +1,6 @@
 Bonus Credit- Carousel under the original product page
 
-Adding a two different reflection pdf's- One for 6A, one for 6A+6B
+Adding two different reflection pdf's- One for 6A, one for 6A+6B
 
 My new page is the Order tracking page (Track.html), since I had a shopping cart page already.
 
