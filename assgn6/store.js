@@ -208,8 +208,21 @@ function removeItem(){
     removeCartItems.parentNode.removeChild(removeCartItems);
     //console.log(removeCartItems.parentNode);
 
-
+    //This is so number on bag updates
     count3.value = count3.value -1;
+
+    //This is so price updates when things are deleted
+    const elements = document.querySelectorAll('.pricesOfItems');
+    const elementsArray = Array.from(elements);
+
+
+    const cartItems = elements.length;
+    sum = 0;
+    for(var i=0;i<elements.length;i++){
+        sum += parseInt(elements[i].innerHTML);
+    }
+    totalPrice = document.getElementById("combined");
+
     totalPrice.value =sum+5;
 
     }
