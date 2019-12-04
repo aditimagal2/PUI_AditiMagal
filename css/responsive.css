@@ -1,0 +1,1266 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) {}
+@media (min-width: 1366px) {
+    .index-page .container{
+        max-width: 995px; 
+    }
+    .container{
+        max-width: 1020px; 
+    }
+}
+@media (min-width: 1600px) {
+    .index-page .container{
+        max-width: 1360px; 
+    }
+    .container{
+        max-width: 1420px; 
+    }
+    .chat-recive-box .image-holder img.girl-img{
+        max-width: 20px;
+    }
+}
+@media (max-width: 1890px) {
+    .navigation ul li {
+        margin-right: 25px;
+    }
+    .navigation ul li a{
+        padding: 13px 15px 12px;
+    }
+    .chat-recive-box .image-holder img.girl-img{
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 1920px) {
+   
+ .navigation ul li {
+        margin-right: 10px;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+        padding: 7px 8px;
+    }
+      .chat-recive-box .image-holder img.girl-img{
+        max-width: 40px;
+    }
+
+
+
+
+ .banner-screen {
+        background-size: cover;
+        height: 501px;
+        width: 800px;
+    }
+    .banner-chat {
+        max-width: 640px;
+    }
+    .banner-chat .title h2{
+        font-size: 15px;
+        color:#989898;
+    }
+    .banner-chat .title {
+        padding: 4px 0;
+    }
+
+    .hello-img {
+        max-width: 80px;
+    }
+    .like-img {
+        max-width: 70px;
+    }
+    .banner-chat-inner {
+        padding: 0px 20px;
+        padding-top:10px;
+    }
+    .banner-chat .title {
+        padding: 10px 0;
+    }
+    .chat-recive-box {
+        margin-bottom: 0;
+        margin-bottom:5px;
+    }
+
+    .chat-recive-box .image-holder img.girl-img{
+        max-width: 40px;
+        margin-bottom:5px;
+    }
+
+.header .logo {
+        padding-left: 27px;
+        transition: all 0.5s ease-in-out;
+    }
+    .header .logo a {
+        background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll center center / cover ;
+        height: 35px;
+        width: 60px;
+        transition: all 0.5s ease-in-out;
+    }
+    .header .logo a:hover {
+        background: rgba(0, 0, 0, 0) url("../img/logo-hover.png") no-repeat scroll center center / cover ;
+        height: 35px;
+        transition: all 0.5s ease-in-out;
+        width: 60px;
+    }
+    .portfolio-page .header .logo a {
+        background: rgba(0, 0, 0, 0) url("../img/portfolio-logo.png") no-repeat scroll center center / cover ;
+        height: 35px;
+        width: 60px;
+        transition: all 0.5s ease-in-out;
+    }
+    .portfolio-page .header .logo a:hover {
+        background: rgba(0, 0, 0, 0) url("../img/logo-hover.png") no-repeat scroll center center / cover ;
+        height: 35px;
+        transition: all 0.5s ease-in-out;
+        width: 60px;
+    }
+
+     .header-socail ul li {
+        margin-right: 46px;
+    }
+    .header {
+        padding: 20px 30px 10px 10px;
+    }
+    .navigation {
+        margin-top: 3px;
+    }
+    .portfolio-inner .text-box h3{
+        font-size: 25px;
+    }
+    .portfolio-inner .text-box p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .portfolio-inner .text-box span{
+        font-size: 15px;
+    }
+    .portfolio-inner .text-box {
+        padding: 43px 15px 20px;
+    }
+    .footer-inner a {
+        font-size: 20px;
+        height: 47px;
+        line-height: 47px;
+        width: 300px;
+        margin: 12px 0 28px;
+    }
+    .footer {
+        padding: 44px 0 32px;
+    }
+    .contact-us-inner h3 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .contact-us-inner .form-group .form-control{
+        font-size: 21px;
+        height: 61px;
+    }
+    .contact-us-inner .form-group {
+        margin-bottom: 15px;
+    }
+    .contact-us-inner .form-group textarea.form-control {
+        height: 208px;
+    }
+    .contact-us-inner span {
+        font-size: 21px;
+        margin-top: 27px;
+    }
+    .contact-us-sec {
+        padding: 77px 0 60px;
+    }
+    .contact-us-inner {
+        max-width: 630px;
+    }
+    .about-banner-inner h3{
+        font-size: 35px;
+        margin-bottom: 13px;
+    }
+    .about-banner-inner .image-holder img{
+        max-width: 260px;
+    }
+    .about-banner-inner p {
+        font-size: 21px;
+        line-height: 34px;
+        margin-top: 21px;
+    }
+    .about-banner-inner .down-arrow {
+        margin-top: 95px;
+    }
+
+    .about-banner-sec {
+        padding: 77px 0 22px;
+    }
+    .aboutus-sec .text-box h3{
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+    .aboutus-sec .text-box .text-inner h4{
+        font-size: 21px;
+        margin-bottom: 1px;
+    }
+    .aboutus-sec .text-box .text-inner span {
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .aboutus-sec .text-box .text-inner p {
+        font-size: 21px;
+        line-height: 34px;
+        margin-top: 30px;
+    }
+    .aboutus-sec .text-box .text-inner {
+        margin-bottom: 37px;
+    }
+    .aboutus-sec .text-box strong{
+        font-size: 21px;
+    }
+    .aboutus-sec {
+        padding: 40px 0 84px;
+    }
+    .portfolio-banner .text-inner h3 {
+        font-size: 36px;
+        line-height: 55px;
+        margin-bottom: 13px;
+    }
+    .portfolio-banner .text-inner a {
+        margin-top: 20px;
+    }
+    .Why-coFigure-box .text-box h3{
+        font-size: 36px;
+    }
+    .Why-coFigure-box .text-box p {
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .Why-coFigure-box .text-box .image-holder {
+        margin-top: 75px;
+    }
+    .wirframe-sec .text-box p {
+        font-size: 21px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .wirframe-sec .text-box span{
+        font-size: 21px;
+        margin-bottom: 82px;
+    }
+    .portfolio-slid {
+        margin: 40px 0 15px;
+    }
+    .wirframe-sec .text-box .image-holder img{
+        max-width: 483px;
+    }
+    .portfolio-developer-sec {
+        padding: 45px 0 65px;
+    }
+    .portfolio-developer-sec .text-box p,
+    .portfolio-wireframe-sec .text-box p{
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .portfolio-developer-sec .text-box {
+        margin-top: 50px;
+    }
+    .portfolio-wireframe-sec {
+        padding: 96px 0 72px;
+    }
+    .portfolio-wireframe-sec .text-box h3 {
+        font-size: 36px;
+        line-height: 55px;
+        margin-bottom: 5px;
+    }
+    .portfolio-wireframe-sec .text-box {
+        padding-left: 7px;
+        padding-top: 0;
+    }
+    .portfolio-wireframe-sec .image-holder{
+        text-align: center;
+    }
+    .portfolio-wireframe-sec .image-holder img{
+        max-width: 150px;
+    }
+    .portfolio-blank-sec {
+        height: 286px;
+    }
+    .portfolio-wireframe-second .image-holder {
+        height: 445px;
+    }
+    .more-project-sec .hedding a {
+        font-size: 21px;
+        height: 53px;
+        line-height: 53px;
+        width: 320px;
+    }
+    .more-project-sec {
+        padding: 50px 0 55px;
+    }
+    .more-project-inner {
+        margin-top: 75px;
+    }
+    .more-project-inner h3 {
+        margin-bottom: 16px;
+    }
+    .top-arrow {
+        margin-top: 53px;
+    }
+    .portfolio-banner .image-holder img{
+        height: 572px;
+        object-fit: cover;
+    }
+    .portfolio-page-sec {
+        margin-top: 58px;
+    }
+    .carousel-control-prev {
+        left: -70px;
+    }
+    .carousel-control-next{
+        right: -70px;
+    }
+    .banner-sec {
+        padding: 100px 0;
+    }
+    .banner-chat {
+        max-width: 560px;
+    }
+    .banner-screen {
+        background-size: cover;
+        height: 430px;
+        padding-top: 32px;
+        width: 687px;
+    }
+    .banner-chat-inner {
+        padding: 14px 20px;
+    }
+    .chat-recive-box .text-box h3 {
+        font-size: 16px;
+    }
+    .chat-recive-box .image-holder .hello-img {
+        height: 100px;
+        max-width: 110px;
+        position: relative;
+        z-index: 1;
+    }
+    .chat-recive-box {
+        margin-bottom: 0;
+    }
+    .like-img {
+        max-width: 80px;
+    }
+    .portfolio-arrow {
+        margin-top: 0;
+        text-align: center;
+        min-height: 90px;
+    }
+    .portfolio-arrow h3 {
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        top: 12px;
+        width: 200px;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 2200px) {
+
+    .chat-recive-box .image-holder img.girl-img{
+        max-width: 40px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1600px) {
+    .navigation ul li {
+        margin-right: 30px;
+    }
+    .navigation ul li a {
+        font-size: 20px;
+        padding: 7px 12px;
+    }
+    .header .logo {
+        padding-left: 27px;
+        transition: all 0.5s ease-in-out;
+    }
+    .header .logo a {
+        background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll center center / cover ;
+        height: 35px;
+        width: 60px;
+        transition: all 0.5s ease-in-out;
+    }
+    .header .logo a:hover {
+        background: rgba(0, 0, 0, 0) url("../img/logo-hover.png") no-repeat scroll center center / cover ;
+        height: 35px;
+        transition: all 0.5s ease-in-out;
+        width: 60px;
+    }
+    .portfolio-page .header .logo a {
+        background: rgba(0, 0, 0, 0) url("../img/portfolio-logo.png") no-repeat scroll center center / cover ;
+        height: 35px;
+        width: 60px;
+        transition: all 0.5s ease-in-out;
+    }
+    .portfolio-page .header .logo a:hover {
+        background: rgba(0, 0, 0, 0) url("../img/logo-hover.png") no-repeat scroll center center / cover ;
+        height: 35px;
+        transition: all 0.5s ease-in-out;
+        width: 60px;
+    }
+    .header-socail ul li {
+        margin-right: 46px;
+    }
+    .header {
+        padding: 20px 30px 10px 10px;
+    }
+    .navigation {
+        margin-top: 3px;
+    }
+    .portfolio-inner .text-box h3{
+        font-size: 25px;
+    }
+    .portfolio-inner .text-box p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .portfolio-inner .text-box span{
+        font-size: 15px;
+    }
+    .portfolio-inner .text-box {
+        padding: 43px 15px 20px;
+    }
+    .footer-inner a {
+        font-size: 20px;
+        height: 47px;
+        line-height: 47px;
+        width: 300px;
+        margin: 12px 0 28px;
+    }
+    .footer {
+        padding: 44px 0 32px;
+    }
+    .contact-us-inner h3 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .contact-us-inner .form-group .form-control{
+        font-size: 21px;
+        height: 61px;
+    }
+    .contact-us-inner .form-group {
+        margin-bottom: 15px;
+    }
+    .contact-us-inner .form-group textarea.form-control {
+        height: 208px;
+    }
+    .contact-us-inner span {
+        font-size: 21px;
+        margin-top: 27px;
+    }
+    .contact-us-sec {
+        padding: 77px 0 60px;
+    }
+    .contact-us-inner {
+        max-width: 630px;
+    }
+    .about-banner-inner h3{
+        font-size: 35px;
+        margin-bottom: 13px;
+    }
+    .about-banner-inner .image-holder img{
+        max-width: 260px;
+    }
+    .about-banner-inner p {
+        font-size: 21px;
+        line-height: 34px;
+        margin-top: 21px;
+    }
+    .about-banner-inner .down-arrow {
+        margin-top: 95px;
+    }
+
+    .about-banner-sec {
+        padding: 77px 0 22px;
+    }
+    .aboutus-sec .text-box h3{
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+    .aboutus-sec .text-box .text-inner h4{
+        font-size: 21px;
+        margin-bottom: 1px;
+    }
+    .aboutus-sec .text-box .text-inner span {
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .aboutus-sec .text-box .text-inner p {
+        font-size: 21px;
+        line-height: 34px;
+        margin-top: 30px;
+    }
+    .aboutus-sec .text-box .text-inner {
+        margin-bottom: 37px;
+    }
+    .aboutus-sec .text-box strong{
+        font-size: 21px;
+    }
+    .aboutus-sec {
+        padding: 40px 0 84px;
+    }
+    .portfolio-banner .text-inner h3 {
+        font-size: 36px;
+        line-height: 55px;
+        margin-bottom: 13px;
+    }
+    .portfolio-banner .text-inner a {
+        margin-top: 20px;
+    }
+    .Why-coFigure-box .text-box h3{
+        font-size: 36px;
+    }
+    .Why-coFigure-box .text-box p {
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .Why-coFigure-box .text-box .image-holder {
+        margin-top: 75px;
+    }
+    .wirframe-sec .text-box p {
+        font-size: 21px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .wirframe-sec .text-box span{
+        font-size: 21px;
+        margin-bottom: 82px;
+    }
+    .portfolio-slid {
+        margin: 40px 0 15px;
+    }
+    .wirframe-sec .text-box .image-holder img{
+        max-width: 483px;
+    }
+    .portfolio-developer-sec {
+        padding: 45px 0 65px;
+    }
+    .portfolio-developer-sec .text-box p,
+    .portfolio-wireframe-sec .text-box p{
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .portfolio-developer-sec .text-box {
+        margin-top: 50px;
+    }
+    .portfolio-wireframe-sec {
+        padding: 96px 0 72px;
+    }
+    .portfolio-wireframe-sec .text-box h3 {
+        font-size: 36px;
+        line-height: 55px;
+        margin-bottom: 5px;
+    }
+    .portfolio-wireframe-sec .text-box {
+        padding-left: 7px;
+        padding-top: 0;
+    }
+    .portfolio-wireframe-sec .image-holder{
+        text-align: center;
+    }
+    .portfolio-wireframe-sec .image-holder img{
+        max-width: 150px;
+    }
+    .portfolio-blank-sec {
+        height: 286px;
+    }
+    .portfolio-wireframe-second .image-holder {
+        height: 445px;
+    }
+    .more-project-sec .hedding a {
+        font-size: 21px;
+        height: 53px;
+        line-height: 53px;
+        width: 320px;
+    }
+    .more-project-sec {
+        padding: 50px 0 55px;
+    }
+    .more-project-inner {
+        margin-top: 75px;
+    }
+    .more-project-inner h3 {
+        margin-bottom: 16px;
+    }
+    .top-arrow {
+        margin-top: 53px;
+    }
+    .portfolio-banner .image-holder img{
+        height: 572px;
+        object-fit: cover;
+    }
+    .portfolio-page-sec {
+        margin-top: 58px;
+    }
+    .carousel-control-prev {
+        left: -70px;
+    }
+    .carousel-control-next{
+        right: -70px;
+    }
+    .banner-sec {
+        padding: 100px 0;
+    }
+    .banner-chat {
+        max-width: 560px;
+    }
+    .banner-screen {
+        background-size: cover;
+        height: 430px;
+        padding-top: 32px;
+        width: 687px;
+    }
+    .banner-chat-inner {
+        padding: 14px 20px;
+    }
+    .chat-recive-box .text-box h3 {
+        font-size: 16px;
+    }
+    .chat-recive-box .image-holder .hello-img {
+        height: 100px;
+        max-width: 110px;
+        position: relative;
+        z-index: 1;
+    }
+    .chat-recive-box {
+        margin-bottom: 0;
+    }
+    .like-img {
+        max-width: 80px;
+    }
+    .portfolio-arrow {
+        margin-top: 0;
+        text-align: center;
+        min-height: 90px;
+    }
+    .portfolio-arrow h3 {
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        top: 12px;
+        width: 200px;
+    }
+
+}
+@media (max-width: 1440px) {
+    .navigation ul li {
+        margin-right: 10px;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+        padding: 7px 8px;
+    }
+      .chat-recive-box .image-holder img.girl-img{
+        max-width: 40px;
+    }
+
+
+
+
+ .banner-screen {
+        background-size: cover;
+        height: 501px;
+        width: 800px;
+    }
+    .banner-chat {
+        max-width: 640px;
+    }
+    .banner-chat .title h2{
+        font-size: 15px;
+        color:#989898;
+    }
+    .banner-chat .title {
+        padding: 4px 0;
+    }
+
+    .hello-img {
+        max-width: 80px;
+    }
+    .like-img {
+        max-width: 70px;
+    }
+    .banner-chat-inner {
+        padding: 60px 20px;
+        padding-top:20px;
+    }
+    .banner-chat .title {
+        padding: 10px 0;
+    }
+    .chat-recive-box {
+        margin-bottom: 0;
+    }
+
+}
+@media (max-width: 1199px) {
+    .navigation ul li {
+        margin-right: 10px;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+    }
+    .banner-screen {
+        background-size: cover;
+        height: 440px;
+        width: 702px;
+    }
+    .banner-chat {
+        max-width: 573px;
+    }
+    .banner-chat .title h2{
+        font-size: 15px;
+    }
+    .banner-chat .title {
+        padding: 4px 0;
+    }
+
+    .hello-img {
+        max-width: 80px;
+    }
+    .like-img {
+        max-width: 50px;
+    }
+    .banner-chat-inner {
+        padding: 25px 20px;
+    }
+    .banner-chat .title {
+        padding: 10px 0;
+    }
+    .chat-recive-box {
+        margin-bottom: 0;
+    }
+    .header {
+        padding: 25px 20px 10px 5px;
+    }
+    .header .logo {
+        padding-left: 22px;
+    }
+    .navigation ul li {
+        margin-right: 4px;
+    }
+}
+@media (max-width: 991px)  {
+    .header {
+        padding: 30px 35px 13px 18px;
+    }
+    .navigation ul li a {
+        font-size: 15px;
+        padding: 5px 8px;
+    }
+    .navigation ul li {
+        margin-right: 30px;
+    }
+    .header .logo {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 50px;
+        position: relative;
+        left: -32px;
+    }
+    .header .logo a,
+    .portfolio-page .header .logo a,
+    .portfolio-page .header .logo a:hover,
+    .header .logo a:hover{
+        height: 26px;
+        width: 45px;
+    }
+    .header-socail ul li:first-child a,
+    .header-socail ul li:first-child a:hover,
+    .portfolio-page .header-socail ul li:first-child a,
+    .portfolio-page .header-socail ul li:first-child a:hover{
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+    }
+    .header-socail ul li:nth-child(2) a,
+    .header-socail ul li:nth-child(2) a:hover,
+    .portfolio-page .header-socail ul li:nth-child(2) a,
+    .portfolio-page .header-socail ul li:nth-child(2) a:hover{
+        width: 17px;
+        height: 17px;
+        background-size: cover;
+    }
+    .header-socail ul li:nth-child(3) a,
+    .header-socail ul li:nth-child(3) a:hover,
+    .portfolio-page .header-socail ul li:nth-child(3) a,
+    .portfolio-page .header-socail ul li:nth-child(3) a:hover{
+        width: 24px;
+        height: 15px;
+        margin: 3px 0 0;
+        background-size: cover;
+    }
+    .header-socail ul li {
+        margin-right: 36px;
+    }
+    .header-socail ul li:nth-child(2) a img {
+        margin-top: 1px;
+        max-width: 17px;
+    }
+    .header-socail ul li:last-child a img {
+        margin-top: 1px;
+        max-width: 24px;
+    }
+    .navigation {
+        margin-top: 0;
+    }
+    .portfolio-inner .text-box h3 {
+        font-size: 20px;
+    }
+    .portfolio-inner .text-box p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .portfolio-inner .text-box {
+        padding: 32px 15px 20px;
+    }
+    .banner-screen {
+        background: #ffffff url("../img/Tablet.svg") no-repeat scroll 0 0;
+        height: 420px;
+        padding-top: 26px;
+        position: relative;
+        width: 597px;
+        z-index: 1;
+    }
+    .banner-chat {
+        border-color: currentcolor;
+        border-style: none;
+        border-width: medium medium 0;
+        max-width: 485px;
+    }
+    .banner-chat .title h2{
+        font-size: 15px;
+    }
+    .banner-chat .title {
+        padding: 6px 0;
+    }
+    .chat-recive-box .text-box h3 {
+        font-size: 15px;
+        position: relative;
+        z-index: 1;
+    }
+    .chat-recive-box .text-box::after {
+        bottom: -1px;
+        right: -11px;
+    }
+    .chat-recive-box .text-box {
+        margin-right: 13px;
+        padding: 5px 18px;
+    }
+    .chat-recive-box .image-holder img.girl-img{
+        max-width: 30px;
+    }
+    .chat-recive-box .image-holder .hello-img{
+        max-width: 87px;
+        height:auto;
+    }
+    .chat-recive-box .image-holder .like-img{
+        max-width: 53px;
+    }
+    .chat-recive-box {
+        margin-bottom: 14px;
+    }
+    .index-page .index-main {
+        background: rgba(0, 0, 0, 0) url("../img/table-bg.png") no-repeat scroll center 40px / contain ;
+    }
+    .contact-us-inner h3{
+        font-size: 30px;
+    }
+    .contact-us-inner .form-group .form-control {
+        height: 56px;
+    }
+    .contact-us-inner .form-group textarea.form-control {
+        height: 190px;
+    }
+    .contact-us-inner span{
+        font-size: 20px;
+    }
+    .aboutus-sec .text-box .text-inner p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .portfolio-banner .text-inner h3 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .portfolio-banner .text-inner span {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .portfolio-banner .text-inner p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Why-coFigure-box .text-box h3 {
+        font-size: 30px;
+    }
+    .Why-coFigure-box .text-box .image-holder {
+        margin-top: 36px;
+        margin-bottom: 43px;
+    }
+    .portfolio-wireframe-sec .image-holder img {
+        max-width: 112px;
+    }
+    .portfolio-wireframe-sec .text-box h3 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .portfolio-wireframe-second .image-holder {
+        height: 214px;
+    }
+    .portfolio-wireframe-sec .text-box {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .portfolio-banner .image-holder img {
+        height: 428px;
+    }
+    .navigation ul li {
+        margin-right: 32px;
+    }
+}
+@media (max-width: 850px)  {
+    .navigation ul li {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 767px)  {
+    .container{
+        max-width: 100%;
+    }
+    .dasktop-version{
+        display: none;
+    }
+    .mobile-version{
+        display: block;
+    }
+    .header .logo,
+    .portfolio-page .header .logo{
+        text-align: left;
+        left: 0;
+        max-width: 100%;
+    }
+    .header .logo a,
+    .portfolio-page .header .logo a{
+        margin: 0;
+    }
+    .portfolio-page .header .logo a{
+        background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll center center / cover ;
+    }
+    .header {
+        padding: 20px 5px 15px 10px;
+    }
+    .banner-screen {
+        background: rgba(0, 0, 0, 0) url("../img/Mobile1.svg") no-repeat scroll 0 0;
+        height: 445px;
+        padding-top: 58px;
+        width: 215px;
+    }
+    .banner-chat .title h2 {
+        font-size: 17px;
+    }
+    .banner-chat .title {
+        padding: 3px 0;
+    }
+    .banner-chat {
+        max-width: 189px;
+    }
+    .banner-chat-inner {
+        padding: 12px 10px;
+    }
+    .chat-recive-box .image-holder img.girl-img {
+        bottom: -3px;
+        max-width: 28px;
+        position: inherit;
+    }
+    .chat-recive-box .text-box {
+        margin-right: 6px;
+        padding: 7px 15px;
+        margin-bottom: 6px;
+    }
+    .chat-recive-box .text-box h3 {
+        font-size: 13px;
+        text-align: right;
+    }
+    .chat-recive-box .text-box::after {
+        bottom: 0;
+        right: -9px;
+    }
+    .chat-recive-box {
+        margin-bottom: 12px;
+    }
+    .chat-recive-box .image-holder .like-img {
+        max-width: 42px;
+    }
+    .chat-recive-box .image-holder .hello-img {
+        max-width: 70px;
+        height: auto;
+    }
+    .banner-sec {
+        padding: 25px 0 62px;
+        min-height:60px;
+    }
+    .portfolio-arrow {
+        min-height: 95px;
+    }
+    .portfolio-arrow a{
+        display: inline-block;
+    }
+    .portfolio-arrow a img {
+        height: 23px;
+        max-width: 50px;
+    }
+    .contact-us-sec{
+        background: none;
+        padding: 23px 0 60px;
+    }
+    .contact-us-inner h3 {
+        font-size: 25px;
+    }
+    .contact-us-inner h3 {
+        font-size: 25px;
+        margin-bottom: 21px;
+    }
+    .contact-us-inner .form-group .form-control {
+        height: 71px;
+    }
+    .about-banner-inner h3 {
+        font-size: 25px;
+        margin-bottom: 27px;
+    }
+    .about-banner-inner .image-holder img {
+        max-width: 123px;
+    }
+    .about-banner-inner p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 43px;
+    }
+    .about-banner-inner .down-arrow {
+        margin-top: 15px;
+    }
+    .about-banner-sec {
+        padding: 23px 0 37px;
+    }
+    .aboutus-sec .text-box h3 {
+        font-size: 25px;
+        margin-bottom: 28px;
+    }
+    .aboutus-sec {
+        padding: 34px 0 55px;
+    }
+    .aboutus-sec .text-box .text-inner h4 {
+        margin-bottom: 15px;
+    }
+    .aboutus-sec .text-box .text-inner p {
+        margin-top: 14px;
+    }
+    .aboutus-sec .text-box .text-inner {
+        margin-bottom: 77px;
+    }
+    .aboutus-sec .text-box strong{
+        padding-top: 0;
+    }
+    .aboutus-sec .text-box .text-inner span {
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .portfolio-page .header{
+        background-color: #fff;
+        position: static;
+    }
+    .portfolio-page .header-socail ul li img {
+        filter: brightness(30%);
+    }
+    .portfolio-banner .image-holder img {
+        height: 320px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .portfolio-banner .text-inner h3 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .portfolio-banner .text-inner span {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .portfolio-banner .text-inner a{
+        display: none;
+    }
+    .Why-coFigure-box .text-box h3 {
+        font-size: 25px;
+    }
+    .Why-coFigure-box .text-box p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .portfolio-page-sec {
+        margin-top: 30px;
+    }
+    .Why-coFigure-box .text-box p{
+        margin-top: 30px;
+    }
+    .wirframe-sec .text-box p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .wirframe-sec .text-box span {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .portfolio-developer-sec .col-6:first-child .image-holder img{
+        max-width: 170px;
+    }
+    .portfolio-developer-sec .text-box p, .portfolio-wireframe-sec .text-box p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .portfolio-developer-sec .text-box {
+        margin-top: 22px;
+    }
+    .portfolio-developer-sec {
+        padding: 45px 0 15px;
+    }
+    .portfolio-wireframe-sec .image-holder img {
+        max-width: 100%;
+    }
+    .portfolio-wireframe-sec {
+        padding: 40px 0 53px;
+    }
+    .portfolio-wireframe-sec .text-box h3 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .portfolio-wireframe-sec .text-box {
+        padding-top: 41px;
+    }
+    .portfolio-wireframe-sec .text-box h3 {
+        margin-bottom: 30px;
+    }
+    .more-project-sec .hedding a {
+        font-size: 20px;
+        height: 67px;
+        line-height: 67px;
+        width: 323px;
+    }
+    .more-project-inner h3 {
+        font-size: 20px;
+        margin-bottom: 40px;
+        padding-left: 0;
+    }
+    .more-project-inner {
+        margin-top: 60px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+    .carousel {
+        padding: 0 50px;
+    }
+    .more-project-inner .image-holder{
+        margin-bottom: 30px;
+    }
+    .top-arrow {
+        margin-top: 0;
+    }
+    .more-project-sec {
+        padding: 50px 0 26px;
+    }
+    .index-page .index-main {
+        background: rgba(0, 0, 0, 0) url("../img/mobile-bg-.png") no-repeat scroll center 0 / cover ;
+    }
+
+}
+@media (max-width: 575px)  {
+    .portfolio-inner .image-holder img{
+        width: 100%;
+    }
+    .portfolio-inner .text-box h3 {
+        font-size: 25px;
+    }
+    .portfolio-inner .text-box p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .about-banner-inner h3 {
+        text-align: left;
+    }
+    .portfolio-developer-sec .col-6:first-child .image-holder img{
+        max-width: 90px;
+    }
+    .portfolio-developer-sec .col-6:last-child .image-holder img{
+        max-width: 220px;
+    }
+    .mr-0 {
+        margin-top: 20px;
+    }
+    .portfolio-developer-sec .col-6:last-child .image-holder img {
+        max-width: 100%;
+    }
+    .wirframe-sec .text-box .image-holder img {
+        max-width: 100%;
+    }
+    .portfolio-banner .image-holder img {
+        height: 231px;
+    }
+    .portfolio-sec {
+        padding: 0 45px 40px;
+    }
+}
+@media (max-width: 479px)  {}
+@media (max-width: 379px)  {
+    .footer-inner a {
+        width: 100%;
+    }
+    .more-project-sec .hedding a{
+        width: 100%;
+    }
+    .carousel {
+        padding: 0 20px;
+    }
+    .portfolio-banner .image-holder img {
+        height: 180px;
+    }
+    .portfolio-inner .text-box h3 {
+        font-size: 18px;
+    }
+    .portfolio-inner .text-box p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .portfolio-inner .text-box {
+        padding: 20px 15px;
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
